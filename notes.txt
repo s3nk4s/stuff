@@ -1,0 +1,16 @@
+
+# pip and requirements
+
+from here: https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source
+
+install with pip directly from git:
+
+pip install git+https://github.com/doegox/python-cryptoplus.git
+
+or with egg
+
+pip install -e git+https://github.com/doegox/python-cryptoplus.git
+
+add to requirements:
+
+pip freeze > requirements.txt
