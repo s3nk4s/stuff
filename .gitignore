@@ -1,0 +1,6 @@
+temp/
+venv/
+.project
+*.pyc
+*.pyo
+*~
